@@ -49,6 +49,7 @@ public class BasicPoint implements Cloneable {
         y=sc.nextDouble();
         BasicPoint b2=new BasicPoint(x,y);
         boolean s= b1.eql(b2);
-        l.info("Objects are b && b1 are Equal  : "+s);
+        String s1="Objects are b && b1 are Equal  : "+s;
+        l.info(s1);
     }
 }
