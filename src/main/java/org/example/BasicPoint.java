@@ -5,7 +5,7 @@ package org.example;
 //        - An equals method that returns true if the given object is a point with the same x and y coordinates, and false otherwise.
 //        - A clone method that creates and returns a new point with the same x and y coordinates as the original point.
 
-import java.util.Scanner;
+import java.util.*;
 import java.util.logging.*;
 public class BasicPoint implements Cloneable {
     double x;
