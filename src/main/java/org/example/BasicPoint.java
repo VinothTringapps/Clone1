@@ -27,7 +27,7 @@ public class BasicPoint implements Cloneable {
    }
 
 
-    public Object clone() throws CloneNotSupportedException {
+    protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
 
